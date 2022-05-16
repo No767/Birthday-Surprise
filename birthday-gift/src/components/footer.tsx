@@ -13,7 +13,7 @@ export const Footer: FC = () => {
     return(
         <>
         
-        <Container centerContent={true} pt={200} pb={50}>
+        <Container centerContent={true} pt={150} pb={50}>
         <Animated
             animate={{
                 y: [-100, 0],

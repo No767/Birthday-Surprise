@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Text, Heading, Container, chakra, Image } from "@chakra-ui/react"
+import { Text, Heading, Container, chakra, Image, Center } from "@chakra-ui/react"
 import { motion, isValidMotionProp } from 'framer-motion'; 
 
 const Animated = chakra(motion.div, {
@@ -25,8 +25,8 @@ export const Body: FC = () => {
             once: true,
           }}
         >
-        <Container centerContent={true} pt={150}>
-        <Heading>Happy Birthday Elmene!!!</Heading>
+        <Container centerContent={true} pt={50}>
+        <Text align="center" fontSize='4xl'>Happy Birthday Elmene!!!</Text>
         </Container>
         </Animated>
         <Animated
