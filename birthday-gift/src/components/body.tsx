@@ -66,7 +66,7 @@ export const Body: FC = () => {
             once: true,
           }}>
         <Container centerContent={true} pt={50}>
-            <Image src="https://raw.githubusercontent.com/No767/Kumiko/dev/assets/kumiko.jpg" align="center" sizes="md" htmlHeight={256} htmlWidth={256} borderRadius='full'/>
+            <Image src="https://raw.githubusercontent.com/No767/Birthday-Surprise/master/birthday-gift/src/assets/flowers.jpg" align="center" sizes="md" htmlHeight={256} htmlWidth={256} borderRadius="2xl"/>
             <Text pt={25}>And have a pic of some flowers!!!</Text>
         </Container>
         </Animated>
