@@ -25,7 +25,7 @@ export const Body: FC = () => {
             once: true,
           }}
         >
-        <Container centerContent={true} pt={250}>
+        <Container centerContent={true} pt={150}>
         <Heading>Happy Birthday Elmene!!!</Heading>
         </Container>
         </Animated>

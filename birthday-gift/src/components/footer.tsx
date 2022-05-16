@@ -13,7 +13,7 @@ export const Footer: FC = () => {
     return(
         <>
         
-        <Container centerContent={true} pt={200}>
+        <Container centerContent={true} pt={200} pb={50}>
         <Animated
             animate={{
                 y: [-100, 0],
@@ -25,7 +25,7 @@ export const Footer: FC = () => {
                   type: "spring",
                 },
                 duration: 3,
-                delay: 0.1
+                delay: 0.5
               }}
               viewport={{
                 once: true,
@@ -44,7 +44,7 @@ export const Footer: FC = () => {
                   type: "spring",
                 },
                 duration: 3,
-                delay: 0.2
+                delay: 0.6
               }}
               viewport={{
                 once: true,
@@ -62,7 +62,7 @@ export const Footer: FC = () => {
                   type: "spring",
                 },
                 duration: 3,
-                delay: 0.3
+                delay: 0.7
               }}
               viewport={{
                 once: true,
@@ -80,7 +80,7 @@ export const Footer: FC = () => {
                   type: "spring",
                 },
                 duration: 3,
-                delay: 0.4
+                delay: 0.8
               }}
               viewport={{
                 once: true,
@@ -99,7 +99,7 @@ export const Footer: FC = () => {
                   type: "spring",
                 },
                 duration: 3,
-                delay: 0.5
+                delay: 0.9
               }}
               viewport={{
                 once: true,
