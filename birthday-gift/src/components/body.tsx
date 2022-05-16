@@ -14,7 +14,7 @@ export const Body: FC = () => {
             y: [-100, 0],
             opacity: [0, 1],
           }}
-          // typescript complaining about types, but should work
+          // @ts-ignore
           transition={{
             y: {
               type: "spring",
@@ -34,6 +34,7 @@ export const Body: FC = () => {
             y: [-100, 0],
             opacity: [0, 1],
           }}
+          // @ts-ignore
           transition={{
             y: {
               type: "spring",
@@ -53,6 +54,7 @@ export const Body: FC = () => {
             y: [-100, 0],
             opacity: [0, 1],
           }}
+          // @ts-ignore
           transition={{
             y: {
               type: "spring",
