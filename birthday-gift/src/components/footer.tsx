@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Text, Heading, Center, Container, HStack} from "@chakra-ui/react"
+import { Text, Container, HStack} from "@chakra-ui/react"
 import { SiReact, SiChakraui, SiNetlify, SiTypescript} from 'react-icons/si';
 import '../index.css'
 export const Footer: FC = () => {

@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Text, Heading, Center, Container, Button, ButtonGroup, chakra, Image } from "@chakra-ui/react"
+import { Text, Heading, Container, chakra, Image } from "@chakra-ui/react"
 import { motion, isValidMotionProp } from 'framer-motion'; 
 
 const Animated = chakra(motion.div, {
